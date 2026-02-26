@@ -1,56 +1,150 @@
-# 📊 SALES-ANALYSIS-POWER-BI-PROJECT
+# 📊 Sales Management Dashboard: Power BI & SQL Portfolio Project
+## 🔎 Project Overview
 
-This project delivers an end-to-end Sales Analysis solution built to support data-driven decision-making for the Sales team. The objective was to transform raw CRM and budget data into interactive Power BI dashboards that provide clear visibility into internet sales performance.
+This project focuses on building an Executive Sales Management Dashboard designed to support Sales Managers and Sales Representatives with data-driven decision-making.
 
-# 🔎 Business Requirement
+The objective was to transform raw sales data into a structured data model and deliver an interactive Power BI dashboard that provides clear insights into:
 
-Requested by Steven (Sales Manager), the goal was to improve sales reporting, tracking, and follow-up processes by implementing visual dashboards with daily refresh capability.
+1) Internet sales performance
 
-# 🛠 Tools & Systems Used
+2) Customer purchasing behavior
 
-Power BI – Data modeling, DAX, interactive dashboards
+3) Product performance
 
-CRM System (WordPress) – Sales data source
+4) Sales vs Budget comparison
 
-Excel (2021 Budgets) – Target vs. actual comparison
+5) Sales trends over time
 
-# 📌 Key Features
-# 1️⃣ Sales Overview Dashboard (Manager View)
+The solution combines SQL for data cleansing and transformation with Power BI for data modeling, DAX calculations, and visualization.
 
-Daily refreshed summary of internet sales
+## 🎯 Business Requirement
 
-Revenue breakdown by customer and product
+The business requested an executive-level sales report that:
 
-KPI tracking and time-series analysis
+1) Provides a high-level overview of internet sales
 
-Actual vs. Budget comparison
+2) Tracks performance against budget
 
-# 2️⃣ Customer-Level Analysis (Sales Representative View)
+3) Enables detailed customer-level analysis
 
-Detailed sales data by customer
+4) Enables product-level performance analysis
 
-Filters for targeted analysis
+5) Refreshes daily to ensure up-to-date insights
 
-Identifies top customers for follow-up and upselling opportunities
+## 👥 User Stories
 
-# 3️⃣ Product-Level Analysis
+### Sales Manager
 
-Performance tracking by product
+1) Needs a dashboard overview of internet sales
 
-Best-selling product identification
+2) Wants to monitor KPIs and compare sales against budget
 
-Focus on high-performing categories
+3) Requires trend analysis over time
 
-# 🎯 Project Value
+### Sales Representative
 
-Enables performance tracking against targets
+1) Needs detailed customer-level sales insights
 
-Improves sales follow-up efficiency
+2)Wants to identify high-value customers
 
-Identifies revenue-driving customers and products
+3) Needs product-level performance tracking
 
-Supports strategic sales decision-making
+## 🛠 Technical Implementation
+### 🔹 Data Source
 
+SQL Server Database: AdventureWorksDW2019
+
+Budget data: Excel
+
+### 🔹 Data Processing (SQL)
+
+Data was extracted, cleaned, and transformed using SQL:
+
+1) Created dimension tables (Calendar, Customers, Products)
+
+2) Extracted fact table (Internet Sales)
+
+3) Filtered dataset dynamically to include only the last two years
+
+4) Standardized fields and renamed columns for business readability
+
+5) Joined supporting tables (Geography, Product Category, Subcategory)
+
+### 🔹 Data Model
+
+A structured star schema model was implemented in Power BI:
+
+FACT_InternetSales
+
+FACT_Budget
+
+DIM_Calendar
+
+DIM_Customers
+
+DIM_Products
+
+Relationships were defined using proper 1-to-many cardinality for optimized analytical performance.
+
+## 📈 Dashboard Features
+
+The final report includes:
+
+### 1️⃣ Executive Overview Page
+
+Total Sales KPI
+
+Sales vs Budget comparison
+
+Sales Trend over time
+
+High-level performance indicators
+
+### 2️⃣ Customer Analysis Page
+
+Sales per customer
+
+Top-performing customers
+
+Drill-down capability
+
+### 3️⃣ Product Analysis Page
+
+Sales per product
+
+Category & subcategory performance
+
+Product trend analysis
+
+## 💡 Key Skills Demonstrated
+
+1) SQL Data Extraction & Transformation
+
+2) Data Cleansing & Modeling
+
+3) Star Schema Design
+
+4) Power BI Data Modeling
+
+5) DAX Calculations
+
+6) KPI Development
+
+7) Business Requirement Translation
+
+8) Executive Dashboard Design
+
+## 🚀 Project Outcome
+
+This project demonstrates the ability to:
+
+Translate business requirements into analytical solutions
+
+Build scalable data models
+
+Deliver executive-ready dashboards
+
+Combine SQL and Power BI in an end-to-end analytics workflow
 
 ## Dashboard
 
