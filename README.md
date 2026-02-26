@@ -50,3 +50,9 @@ Improves sales follow-up efficiency
 Identifies revenue-driving customers and products
 
 Supports strategic sales decision-making
+
+
+## Dashboard
+
+You can view the sales analysis dashboard here:  
+[Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjJlMjhjMDUtMmFiYS00ZmZlLTlhYmMtMDYzZTIzMTYwMTUxIiwidCI6ImYwZTZkMmNhLTg3MjgtNDgxMy1hYTI4LTM2MmM4NmNmMjBlNSJ9)
