@@ -10,7 +10,7 @@ SELECT
   --[DayNumberOfYear], 
   [WeekNumberOfYear] AS WeekNo,
   [EnglishMonthName] AS Month, 
-  Left([EnglishMonthName], 3) AS MonthShort,   -- Useful for front end date navigation and front end graphs.
+  Left([EnglishMonthName], 3) AS MonthShort,  
   --[SpanishMonthName], 
   --[FrenchMonthName], 
   [MonthNumberOfYear] AS MonthNo, 
@@ -24,3 +24,4 @@ FROM
  [AdventureWorksDW2022].[dbo].[DimDate]
  WHERE 
  CalendarYear >= 2022
+
