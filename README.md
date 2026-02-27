@@ -150,3 +150,14 @@ Combine SQL and Power BI in an end-to-end analytics workflow
 
 You can view the sales analysis dashboard here:  
 [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjJlMjhjMDUtMmFiYS00ZmZlLTlhYmMtMDYzZTIzMTYwMTUxIiwidCI6ImYwZTZkMmNhLTg3MjgtNDgxMy1hYTI4LTM2MmM4NmNmMjBlNSJ9)
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+## 🌟 About Me
+
+Hi, I’m Iqra Malkani. I’m passionate about working with data and building projects across SQL, Power BI and Excel. I focus on creating practical solutions that turn data into meaningful insights and showcase skills that are valuable for business and analytics roles.
+
+You can explore more of my work on my website: www.iqramalkani.com
+
